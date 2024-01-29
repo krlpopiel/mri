@@ -1,0 +1,51 @@
+{
+    "ksiazki": [
+      {
+        "id_ksiazki": 1,
+        "tytul": "Pan Tadeusz",
+        "autor": "Adam Mickiewicz",
+        "rok_wydania": 1834,
+        "gatunek": "Epopeja narodowa",
+        "status_dostepnosci": "Dostępna"
+      },
+      {
+        "id_ksiazki": 2,
+        "tytul": "Zbrodnia i Kara",
+        "autor": "Fiodor Dostojewski",
+        "rok_wydania": 1866,
+        "gatunek": "Powieść psychologiczna",
+        "status_dostepnosci": "Wypożyczona"
+      }
+    ],
+    "czytelnicy": [
+      {
+        "id_czytelnika": 1,
+        "imie": "Jan",
+        "nazwisko": "Kowalski",
+        "numer_karty": "12345",
+        "historia_wypozyczen": [
+          {
+            "id_ksiazki": 2,
+            "data_wypozyczenia": "2024-01-15",
+            "planowana_data_zwrotu": "2024-01-29"
+          }
+        ]
+      },
+      {
+        "id_czytelnika": 2,
+        "imie": "Anna",
+        "nazwisko": "Nowak",
+        "numer_karty": "67890",
+        "historia_wypozyczen": []
+      }
+    ],
+    "wypozyczenia": [
+      {
+        "id_czytelnika": 1,
+        "id_ksiazki": 2,
+        "data_wypozyczenia": "2024-01-15",
+        "planowana_data_zwrotu": "2024-01-29"
+      }
+    ]
+  }
+  
